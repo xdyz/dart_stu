@@ -3,6 +3,7 @@ class Point {
 
   num y = 111;
 
+  @Deprecated("不建议使用")
   static getNum() {
     return x;
   }
