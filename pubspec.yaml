@@ -1,0 +1,5 @@
+name: name
+dependencies:
+  http: ^0.13.5
+environment:
+  sdk: '>=2.10.0 <3.0.0'
