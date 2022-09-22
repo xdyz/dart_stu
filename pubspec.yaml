@@ -1,5 +1,19 @@
-name: name
-dependencies:
-  http: ^0.13.5
+name: name  # 项目名称 必填
+
+descrption: A new Flutter application. # 描述
+
+publish_to: 'node' # 指定包 发布的位置
+
+version: 1.0 # 当前包的版本号
+
+# 配置sdk 的环境 配置之后很多命令就可以在终端上运行了
 environment:
   sdk: '>=2.10.0 <3.0.0'
+
+# 线上生产环境依赖
+dependencies:
+  http: ^0.13.5
+
+# 开发环境的依赖
+dev_dependencies:
+  http: ^0.13.5
