@@ -1,4 +1,4 @@
-import 'lib/FatherClass.dart';
+import '../lib/FatherClass.dart';
 
 class Son extends Father {
   // String name = "asdfjakd";
