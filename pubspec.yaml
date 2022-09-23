@@ -12,6 +12,8 @@ environment:
 
 # 线上生产环境依赖
 dependencies:
+  flutter:
+    sdk: flutter
   http: ^0.13.5
 
 # 开发环境的依赖
